@@ -12,9 +12,9 @@ $mq->connect('localhost', { user => 'guest', password => 'guest' });
 
 $mq->channel_open(1);
 
-$mq->queue_declare(1, 'hello');
-	
-$mq->publish(1, 'hello', $message);
+$mq->queue_declare(1, 'task_queue', {durable => 1});
+
+$mq->publish(1, 'task_queue', $message, undef, {delivery_mode => 2});
 
 say " [x] Sent '$message' ";
 
