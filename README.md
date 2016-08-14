@@ -9,7 +9,15 @@ The RabbitMQ tutorial at http://www.rabbitmq.com/getstarted.html doesn't include
   * [new\_task.pl](https://github.com/oylenshpeegul/RabbitMQ-Tutorial-Perl/blob/master/new_task.pl)
   * [worker.pl](https://github.com/oylenshpeegul/RabbitMQ-Tutorial-Perl/blob/master/worker.pl)
 3. [Publish/Subscribe](http://www.rabbitmq.com/tutorials/tutorial-three-python.html)
+  * emit_log.pl
+  * receive_logs.pl
 4. [Routing](http://www.rabbitmq.com/tutorials/tutorial-four-python.html)
+  * emit\_log_direct.pl
+  * receive\_logs_direct.pl
 5. [Topics](http://www.rabbitmq.com/tutorials/tutorial-five-python.html)
+  * emit\_log_topic.pl
+  * receive\_logs_topic.pl
 6. [RPC](http://www.rabbitmq.com/tutorials/tutorial-six-python.html)
+  * rpc_server.pl
+  * rpc_client.pl
 
