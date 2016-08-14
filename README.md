@@ -18,6 +18,6 @@ The RabbitMQ tutorial at http://www.rabbitmq.com/getstarted.html doesn't include
   * [emit\_log\_topic.pl](emit_log_topic.pl)
   * [receive\_logs\_topic.pl](receive_logs_topic.pl)
 6. [RPC](http://www.rabbitmq.com/tutorials/tutorial-six-python.html)
-  * rpc_server.pl
-  * rpc_client.pl
+  * [rpc\_server.pl](rpc_server.pl)
+  * [rpc\_client.pl](rpc_client.pl)
 
