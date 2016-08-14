@@ -9,11 +9,11 @@ The RabbitMQ tutorial at http://www.rabbitmq.com/getstarted.html doesn't include
   * [new\_task.pl](new_task.pl)
   * [worker.pl](worker.pl)
 3. [Publish/Subscribe](http://www.rabbitmq.com/tutorials/tutorial-three-python.html)
-  * [emit_log.pl](emit_log.pl)
-  * [receive_logs.pl](receive_logs.pl)
+  * [emit\_log.pl](emit_log.pl)
+  * [receive\_logs.pl](receive_logs.pl)
 4. [Routing](http://www.rabbitmq.com/tutorials/tutorial-four-python.html)
-  * emit\_log_direct.pl
-  * receive\_logs_direct.pl
+  * [emit\_log\_direct.pl](emit_log_direct.pl)
+  * [receive\_logs\_direct.pl](receive_logs_direct.pl)
 5. [Topics](http://www.rabbitmq.com/tutorials/tutorial-five-python.html)
   * emit\_log_topic.pl
   * receive\_logs_topic.pl
