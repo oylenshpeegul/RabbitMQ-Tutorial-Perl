@@ -5,6 +5,7 @@ use warnings;
 use experimental qw(signatures);
 use Memoize;
 use Net::AMQP::RabbitMQ;
+memoize('fib');
 
 my $mq = Net::AMQP::RabbitMQ->new();
 
@@ -37,7 +38,6 @@ while (1) {
 	);
 }
 
-memoize('fib');
 sub fib($n) {
 	return $n if $n == 0 or $n == 1;
 	return fib($n-1) + fib($n-2);
